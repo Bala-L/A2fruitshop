@@ -1,0 +1,155 @@
+ .navbar ul{
+  display:flex;
+  justify-content: space-evenly;
+ }
+
+ body{
+  background-color: antiquewhite;
+ }
+  a:hover{
+  border-bottom: 2px solid rgb(14, 210, 210);
+  color:rgb(11, 221, 217)!important;
+ }
+ 
+ /* home */
+.home{
+  display: flex;
+  align-items: center;
+background-image: url(./img/bg\ fruit.jpg);
+background-position: center;
+background-repeat: no-repeat;
+
+/* height: max-content; */
+ background-size: cover;
+}
+.A2{
+  font-size:5rem;
+  margin-left: 200px;
+  margin-top: -100px;
+}
+.AW{
+  font-size: 3rem;
+  font-style: italic;
+  margin-left: 200px;
+  margin-top: 50px;
+  
+}
+
+
+@media (max-width:710px) {
+ .home{
+  background-size: cover;
+  
+ } 
+ .A2{
+  font-size:3rem;
+  margin-left: 50px;
+  margin-top: -100px;
+ }
+.AW{
+  font-size: 1.3rem;
+  
+  margin-top: 50px;
+  font-style: italic;
+  margin-left: 50px;
+  margin-top: 50px;
+ }
+}
+
+.mail1{
+width:250px;
+padding: 5px;
+background: transparent;
+
+}
+::placeholder{
+  font-size: large;
+  
+}
+  /* about */
+.about{
+    background: linear-gradient(to right,rgb(27, 211, 186),rgb(250, 234, 234));
+}
+.about .organic{
+mix-blend-mode:multiply;/* remove the white bg color*/
+}
+  /* fruits */
+ 
+.card{
+    height:300px; 
+    width:250px;
+    border: 1px solid black;
+    /* box-shadow: 10px 10px 10px rgb(77, 74, 74); */
+    margin-bottom: 20px;
+    border-radius: 10px !important;  
+}
+.card-title{
+  margin-left: 40px;
+}
+.WW{
+  margin-left: 30px;
+}
+
+.card:hover{
+  box-shadow:  7px 10px 10px rgb(144, 71, 117) ;
+  transition: .2s;
+}
+.CP{
+  font-size: x-large;
+  font-weight: 500;
+  margin-left: 30px;
+}
+    /* contact */
+    .contact{
+      background-color: white;
+    }
+    .contact img{
+      height:500px;
+      mix-blend-mode:multiply;
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+    }
+    input{
+      width:80%;
+      /* border-style: none;  */
+      border-radius: 8px;
+      font-size: larger;
+
+    }
+    input:hover{
+      background-color: darkgray;
+      border: 2px solid black;
+      color:white;
+    }
+.sms{
+  width:80%;
+  border: 2px solid black;
+border-radius: 6px;
+
+}
+
+.row{
+  margin-top: 100px;
+}
+.ss{
+  width:200px;  border-radius: 9px;
+  margin-top: -50px;
+  font-weight: 800;
+  background-color: green;
+  margin-left: 60px;
+ 
+}
+.box{
+  width:70% !important;
+}
+.error{
+  color:red;
+  font-size: larger;
+}
+
+
